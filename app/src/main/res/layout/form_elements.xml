@@ -1,0 +1,139 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bodybackground"
+    android:id="@+id/form"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+
+
+    <LinearLayout
+        android:id="@+id/lay1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/foodName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/brown"
+        android:layout_marginTop="5dp"
+        android:textSize="22sp"
+        android:textStyle="normal" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/lay1"
+       >
+
+        <TextView
+            android:id="@+id/priceform"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/brown"
+            android:textSize="22sp"
+            android:layout_marginTop="5dp"
+            android:textStyle="normal"
+            android:layout_weight="0.6"
+
+            />
+
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:id="@+id/decrease"
+            android:background="@drawable/minussign"
+            android:layout_weight="0.1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Count"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:id="@+id/counter"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            />
+
+
+
+
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:background="@drawable/addsign"
+            android:id="@+id/quantity"
+            android:layout_weight="0.1"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/lay2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Total Price :"
+            android:id="@+id/total"
+            android:textColor="@color/brown"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/totalprice"
+            android:textColor="@color/brown"
+            android:layout_marginTop="5dp"
+            />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:scrollbars="none"
+        android:layout_below="@+id/lay6">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@+id/lay4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+</LinearLayout>
+
+
+
+
+        </RelativeLayout>
+        </ScrollView>
+
+
+</RelativeLayout>

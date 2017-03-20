@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bodybackground"
+    android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rewards"
+                android:gravity="center"
+                android:textSize="36sp"
+                android:textColor="#5c4a3d"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:id="@+id/underline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/heading"
+                android:background="@drawable/underline"
+                android:layout_centerHorizontal="true" />
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/underline"
+                android:id="@+id/rel1"
+                android:layout_marginTop="10dp"
+                >
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:id="@+id/lay1">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/twitter"
+                    android:background="@drawable/small_chilli_wheel"
+                    android:layout_margin="5dp"/>
+
+
+                </LinearLayout>
+                </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rel1"
+            android:id="@+id/rel2"
+            >
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp">
+
+                <Button
+                    android:id="@+id/list_btn"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_alignLeft="@+id/android:list"
+                    android:layout_alignParentTop="true"
+                    android:layout_weight="1"
+                    android:background="@drawable/greennew"
+                    android:text="Green Rewards"
+                    android:textColor="@color/white"/>
+
+
+                <Button
+                    android:id="@+id/filter_btn"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignRight="@+id/android:list"
+                    android:layout_weight="1"
+                    android:background="@drawable/orangenew"
+                    android:text="Orange Rewards"
+                    android:textColor="@color/white"/>
+
+                <Button
+                    android:id="@+id/map_btn"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignRight="@+id/android:list"
+                    android:layout_weight="1"
+                    android:background="@drawable/rednew"
+                    android:text="Red Rewards"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/linearLayout1"
+                android:text="Card Number:"
+                android:textColor="#5c4a3d"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:id="@+id/card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/textView1"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rect_text_edit_border"
+                android:ems="10"
+                android:minHeight="40dp"
+                android:paddingLeft="5dp"
+                android:inputType="text"/>
+
+
+        </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/bodybackground"
+android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    xmlns:fab="http://schemas.android.com/apk/res-auto">
+
+<!-- We have to indicate that the listview is now a LoadMoreListView -->
+
+<LinearLayout
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dp">
+
+    <Button
+        android:id="@+id/list_btn"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/android:list"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:background="@drawable/greennew"
+        android:text="List"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/map_btn"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/android:list"
+        android:layout_weight="1"
+        android:background="@drawable/rednew"
+        android:text="Map"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/filter_btn"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/android:list"
+        android:layout_weight="1"
+        android:background="@drawable/orangenew"
+        android:text="Filter"
+        android:textColor="@color/white"/>
+</LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+       >
+    <AutoCompleteTextView
+        android:id="@+id/store"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignRight="@+id/search"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.8"
+        android:background="@drawable/rect_text_edit"
+        android:drawableLeft="@drawable/ic_magnify"
+        android:drawableRight="@drawable/ic_action_close"
+        android:ems="10"
+        android:hint="Search for Restaurant"
+        android:imeOptions="actionSearch"
+        android:inputType="textAutoComplete|textAutoCorrect"
+        android:minHeight="40dp"
+        android:paddingLeft="2dp"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/buttonpress"
+        android:minHeight="42dp"
+        android:text="Search"
+        android:textColor="@color/white"
+        android:layout_weight="0.2"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+
+    </LinearLayout>
+
+
+<ListView
+    android:id="@+id/list"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/linearLayout2"
+    android:layout_marginTop="5dp"
+    android:divider="@color/list_divider"
+    android:scrollbars="none"
+    android:listSelector="@drawable/list_row_selector" >
+
+</ListView>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fab_image_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        fab:menu_labels_ellipsize="end"
+        fab:menu_labels_singleLine="true"
+        fab:menu_fab_label="Menu label"
+        fab:menu_icon="@mipmap/ic_checkout"
+        fab:menu_animationDelayPerItem="0"
+        fab:menu_colorNormal="#800411"
+        fab:menu_colorPressed="#71020a"
+        fab:menu_colorRipple="#71020a">
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+
+</RelativeLayout>

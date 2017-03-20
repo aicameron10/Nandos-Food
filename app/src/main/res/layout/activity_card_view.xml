@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_category_top2"
+        android:layout_marginTop="5dp"/>
+    <RelativeLayout
+        android:id="@+id/Rel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_below="@+id/head"
+        android:padding="5dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="Medium Text"
+            android:textColor="#5c4a3d"
+            android:gravity="left"
+            android:id="@+id/title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            />
+
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/image"
+            android:layout_below="@+id/title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:text="Medium Text"
+            android:gravity="left"
+            android:id="@+id/body"
+            android:textColor="#5c4a3d"
+            android:layout_below="@+id/image"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_category_bottom2"
+        android:layout_below="@+id/Rel1"
+        android:layout_marginBottom="5dp"/>
+
+
+</RelativeLayout>

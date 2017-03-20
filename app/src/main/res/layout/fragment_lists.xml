@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bodybackground"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none">
+
+
+
+        <RelativeLayout
+            android:id="@+id/layer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <com.github.clans.fab.FloatingActionMenu
+                android:id="@+id/menu_down"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:elevation="6dp"
+                fab:menu_labels_ellipsize="end"
+                fab:menu_labels_singleLine="true"
+                fab:menu_fab_size="mini"
+                fab:menu_openDirection="down"
+                fab:menu_colorNormal="#800411"
+                fab:menu_colorPressed="#71020a"
+                fab:menu_colorRipple="#71020a">
+
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_trash"
+                    fab:fab_size="mini"
+                    android:id="@+id/fab1"
+                    fab:fab_label="Remove all from cart"
+                    style="@style/MenuButtonsStyle"/>
+
+
+            </com.github.clans.fab.FloatingActionMenu>
+
+
+            <LinearLayout
+                android:id="@+id/layout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp">
+
+
+                <TextView
+                    android:id="@+id/heading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Checkout"
+                    android:gravity="center"
+                    android:textSize="36sp"
+                    android:layout_gravity="center"
+                    android:textColor="#5c4a3d"
+                    />
+                <ImageView
+                    android:id="@+id/underline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/heading"
+                    android:background="@drawable/underline"
+                    android:layout_gravity="center"
+                    android:layout_centerHorizontal="true" />
+
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/layout1">
+
+            <ListView
+                android:id="@+id/list_lists"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/rect_text_edit_border">
+
+            </ListView>
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layer1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/layout">
+
+            <TextView
+                android:id="@+id/storeName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="From Nando's"
+                android:textSize="24sp"
+                android:layout_weight="1"
+                />
+            <LinearLayout
+                android:id="@+id/ly"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+    <RadioGroup
+        android:id="@+id/choiceRadioGroup1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_lists"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/DeliveryRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delivery"
+            />
+
+
+        <RadioButton
+            android:id="@+id/CollectionRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Collection"
+
+            />
+
+    </RadioGroup>
+                </LinearLayout>
+            <LinearLayout
+                android:id="@+id/details"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/payment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Payment Method"
+                android:textSize="24sp"
+                android:layout_weight="1"
+                />
+            <LinearLayout
+                android:id="@+id/ly1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+    <RadioGroup
+        android:id="@+id/choiceRadioGroup2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/choiceRadioGroup1"
+        android:orientation="horizontal"
+        >
+
+
+        <RadioButton
+            android:id="@+id/OnlineRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Pay Online (PayU)"
+            />
+
+
+        <RadioButton
+            android:id="@+id/OfflineRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/OnlineRadioButton"
+            android:text="Pay In-Store/Driver"
+           />
+
+    </RadioGroup>
+                </LinearLayout>
+            <TextView
+                android:id="@+id/OrderDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose Order Date:"
+                android:textSize="24sp"
+                android:layout_weight="1"
+                />
+
+            <LinearLayout
+                android:id="@+id/ly2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RadioGroup
+                    android:id="@+id/choiceRadioGroup3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/choiceRadioGroup1"
+                    android:orientation="horizontal"
+                    >
+
+
+                    <RadioButton
+                        android:id="@+id/TodayRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="Today"
+                        />
+
+
+                    <RadioButton
+                        android:id="@+id/TomorrowRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/OnlineRadioButton"
+                        android:text="Tomorrow"
+                        />
+
+                </RadioGroup>
+            </LinearLayout>
+
+        </LinearLayout>
+            <LinearLayout
+                android:id="@+id/orderDateSelect"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/layer1">
+
+            </LinearLayout>
+        <LinearLayout
+            android:id="@+id/totalBucket"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/orderDateSelect">
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/buttonhead"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/totalBucket">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="Order"
+                    android:textColor="@color/white"
+                    android:id="@+id/buttonOrder"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:background="@drawable/buttonpress"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="5dp"
+                    />
+
+            </LinearLayout>
+
+
+</RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

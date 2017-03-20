@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+    <CheckBox
+        android:id="@+id/chkOnline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Online Stores" />
+
+    <CheckBox
+        android:id="@+id/chkload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loadshedding"
+        android:layout_below="@+id/chkOnline"/>
+    <CheckBox
+        android:id="@+id/chkdel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delivery"
+        android:layout_below="@+id/chkload"/>
+    <CheckBox
+        android:id="@+id/chkcollect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call &amp; Collect"
+        android:layout_below="@+id/chkdel"/>
+    <CheckBox
+        android:id="@+id/chkbreakfast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Breakfast"
+        android:layout_below="@+id/chkcollect"/>
+    <CheckBox
+        android:id="@+id/chkcoffee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coffee"
+        android:layout_below="@+id/chkbreakfast"/>
+    <CheckBox
+        android:id="@+id/chkdrive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drive-Thru"
+        android:layout_below="@+id/chkcoffee"/>
+    <CheckBox
+        android:id="@+id/chkfullservice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full Service"
+        android:layout_below="@+id/chkdrive"/>
+    <CheckBox
+        android:id="@+id/chkhalaal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Halaal"
+        android:layout_below="@+id/chkfullservice"/>
+    <CheckBox
+        android:id="@+id/chkKosher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kosher"
+        android:layout_below="@+id/chkhalaal"/>
+    <CheckBox
+        android:id="@+id/chkalcohol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lisenced Alcohol"
+        android:layout_below="@+id/chkKosher"/>
+
+
+
+</RelativeLayout>

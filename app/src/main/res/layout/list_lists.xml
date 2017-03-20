@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/meal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:text="hello"
+            android:textSize="15sp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"/>
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/layout1">
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/layout2"
+       android:layout_marginBottom="25dp">
+
+        <LinearLayout
+            android:id="@+id/layout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="0.8"
+           >
+
+
+
+            <TextView
+                android:id="@+id/side"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hello"
+                android:textSize="12sp"
+                android:layout_marginLeft="40dp" />
+            <TextView
+                android:id="@+id/drink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hello"
+                android:textSize="12sp"
+                android:layout_marginLeft="40dp" />
+            <TextView
+                android:id="@+id/veggie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hello"
+                android:textSize="12sp"
+                android:layout_marginLeft="40dp" />
+            <TextView
+                android:id="@+id/hotlevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hello"
+                android:textSize="12sp"
+                android:layout_marginLeft="40dp" />
+            <TextView
+                android:id="@+id/extra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hello"
+                android:textSize="12sp"
+                android:layout_marginLeft="40dp" />
+
+            <TextView
+                android:id="@+id/notes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hello"
+                android:textSize="12sp"
+                android:layout_marginLeft="40dp" />
+
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/update_list"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:background="@drawable/editicon"
+            android:layout_weight="0.2"
+            android:layout_gravity="center"
+            android:layout_marginRight="8dp"/>
+
+        <Button
+            android:id="@+id/delete_list"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:background="@drawable/deleteicon"
+            android:layout_weight="0.2"
+            android:layout_gravity="center"
+            android:layout_marginRight="15dp"/>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+category,name,description,price,diatary,side,drink,hotlevel,vegoption,extra
+chicken,1/4 Chicken ,1/4 chicken only,R34.90,,0,0,1,0,0
+chicken,1/4 Chicken & a side ,1/4 chicken and any regular side,R49.90,,1,0,1,0,0
+chicken,1/4 Chicken Meal,1/4 chicken- regular side & a 330ml soft drink,R56.90,,1,1,1,0,0
+chicken,1/4 Chicken - Chips & a Nando's Roll,1/4 chicken-regular chips and a Nando's roll,R44.90,,0,0,1,0,0
+chicken,1/4 Chicken & Saucy Rice,Regular spicy rice & tomato relish,R36.90,,0,0,1,0,0
+chicken,1/2 Chicken,1/2 chicken only,R59.90,,0,0,1,0,0
+chicken,1/2 Chicken with a Side,1/2 chicken with any regular side,R69.90,,1,0,1,0,0
+chicken,5 Full Wings & a Side,Original or PERi-crusted with any regular side,R64.90,,1,0,1,0,0
+chicken,Hotpot,Delicious spicy rice- grilled veg- tomato relish & pulled chicken,R29.90,,0,0,1,0,0
+chicken,Chicken Strips & Spicy Rice,,R39.90,,0,0,1,0,0
+chicken,Chicken Strips-Veg & Spicy Rice,,R42.90,L,0,0,1,0,0
+chicken,Vitality Meal - seasonal meal due to mielie,Chicken breast- with a regular Portuguese Salad & a flame-grilled mielie,R52.90,L,0,0,1,0,0
+chicken,Full Chicken,,R109.90,,0,0,1,0,0
+chicken,Full Chicken & 4 Nando's Rolls,,R127.90,,0,0,1,0,0
+chicken,Festive Meal,Full chicken- jumbo chips/wedges & 4 Nando's rolls,R154.90,,0,0,1,0,0
+chicken,Full Pack Meal,Full chicken- large Portuguese salad- 4 Nando's rolls & a jumbo chips/wedges,R179.90,,0,0,1,0,0
+burgers/wraps,Burger,Chicken or Veg burger only,R35.90,M|V,0,0,1,1,1
+burgers/wraps,Burger & Side,Burger (chicken or veg)- any regular side,R42.90,M|V,1,0,1,1,1
+burgers/wraps,Burger Meal,Chicken or veggie burger- any regular side & a 330ml soft drink,R56.90,,1,1,1,1,1
+burgers/wraps,Double Burger & a side,Double burger (chicken or veg) and any regular side,R69.90,,1,1,0,1,1
+burgers/wraps,Halloumi & Sweet Chilli Burger ,Our new addition: a delicious flame-grilled chicken fillet with Halloumi and sweet Chilli burger with any regular side,R59.90,,0,0,1,0,0
+burgers/wraps,Pita,Chicken or veg pita only,R39.90,M|V,0,0,1,1,0
+burgers/wraps,Halloumi & Sweet Chilli Pita,Our new addition: a delicious flame-grilled chicken fillet with Halloumi and sweet Chilli pita with any regular side,R59.90,,0,0,1,0,0
+burgers/wraps,Pita & Side,Pita (chicken or veg)- any regular side,R49.90,M|V,1,0,1,1,0
+burgers/wraps,Wrap,Chicken or veg wrap only,R39.90,M|V,0,0,1,1,0
+burgers/wraps,Halloumi & Sweet Chilli Wrap,Our new addition: a delicious flame-grilled chicken fillet with Halloumi and sweet Chilli wrap with any regular side,R59.90,,0,0,1,0,0
+burgers/wraps,Wrap & Side,Wrap (chicken or veg)- any regular side,R49.90,M|V,1,0,1,1,0
+salads,Portuguese Salad Regular,Healthy gets married to tasty in this mix of juicy tomato wedges- cucumber slices- tangy peppers- onion rings- and our PERi-olives- perched happily on a bed of cool- crisp lettuce.,R24.90,L|V,0,0,0,0,0
+salads,Portuguese Salad Large,Healthy gets married to tasty in this mix of juicy tomato wedges- cucumber slices- tangy peppers- onion rings- and our PERi-olives- perched happily on a bed of cool- crisp lettuce.,R32.90,L|V,0,0,0,0,0
+salads,Grilled Chicken Salad,Our Portuguese Salad - crisp lettuc- tomato- cucumber- onion and PERi-olives - is even tastier with a helping of flame-grilled chicken strips. It's easy on the wasteline too.,R42.90,L|V,0,0,0,0,0
+appeteasers,Starter Portion Giblets/Livers & a Nando's Roll,,R30.90,,0,0,1,0,0
+appeteasers,Full Portion Giblets/Livers & a Nando's Roll,,R42.90,,0,0,1,0,0
+appeteasers,Chicken Espetada & a Regular Side,Deboned flame-grilled chicken thighs marinated in a sweet and sticky sauce with mixed herbs and skewered with grilled peppers.,R76.90,,0,0,1,0,0
+nandinos,Kids Burger,GRilled chicken strips or veggie burger- kids chips- 250ml Liqui-Fruit and 60ml chocolate/orange Paddle Pop,R39.90,M,0,0,1,0,0
+nandinos,Strips & Chips,Grilled chicken strips- kids chips- 250ml Liqui-Fruit & 60ml chocolate/orange Paddle Pop,R39.90,M,0,0,1,0,0
+nandinos,Strips-Corn & Dip,Grilled chicken strips- corn-cob wheels- creamy dip- 250ml Liqui-Fruit & 60ml chocolate/orange Paddle Pop,R39.90,,0,0,1,0,0
+nandinos,Kids Wings,2 wings- kids chips & 250ml Liqui-Fruit and 60ml chocolate/orange Paddle Pop,R39.90,,0,0,1,0,0
+sides,Chips (Regular),,R19.90,,0,0,0,0,0
+sides,Chips (Large),,R27.90,,0,0,0,0,0
+sides,Chips (Jumbo),,R32.90,,0,0,0,0,0
+sides,PERi-PERi Chips (Regular),,R19.90,,0,0,0,0,0
+sides,PERi-PERi Chips (Large),,R27.90,,0,0,0,0,0
+sides,PERi-PERi Chips (Jumbo),,R32.90,,0,0,0,0,0
+sides,Wedges (Regular),,R19.90,,0,0,0,0,0
+sides,Wedges (Large),,R27.90,,0,0,0,0,0
+sides,Wedges (Jumbo),,R32.90,,0,0,0,0,0
+sides,PERi-PERi Wedges (Regular),,R19.90,,0,0,0,0,0
+sides,PERi-PERi Wedges (Large),,R27.90,,0,0,0,0,0
+sides,PERi-PERi Wedges (Jumbo),,R32.90,,0,0,0,0,0
+sides,Spicy Rice (Regular),,R19.90,,0,0,0,0,0
+sides,Spicy Rice (Large),,R27.90,,0,0,0,0,0
+sides,Coleslaw (Regular),,R19.90,,0,0,0,0,0
+sides,Coleslaw (Large),,R27.90,,0,0,0,0,0
+sides,PERi Spinach (Regular),,R19.90,,0,0,0,0,0
+sides,PERi Spinach (Large),,R27.90,,0,0,0,0,0
+sides,Roast Veg (Regular),,R19.90,,0,0,0,0,0
+sides,Roast Veg (Large),,R27.90,,0,0,0,0,0
+extras,Fresh Nando's Roll,Served with a mini butter,R7.50,,0,0,0,0,0
+extras,Garlic Roll,,R8.90,,0,0,0,0,0
+extras,Garlic Roll with Cheese,Garlic roll with a slice of cheese,R13.90,,0,0,0,0,0
+extras,Creamy Dip,,R11.90,,0,0,0,0,0
+extras,PERinaise Dip,,R11.90,,0,0,0,0,0
+extras,Flame-grilled Mielie,Seasonal,R9.90,,0,0,0,0,0
+noneextras,Cheddar Cheese,,R6.90,,0,0,0,0,0
+noneextras,Pine,,R6.90,,0,0,0,0,0
+noneextras,Feta,,R8.90,,0,0,0,0,0
+noneextras,Halloumi,,R8.90,,0,0,0,0,0
+desserts,Peppermint Caramel Delight,,R23.90,D,0,0,0,0,0
+desserts,Magnum,,R24.90,D,0,0,0,0,0
+desserts,Chocolate Paddle Pop,, R10.90,,0,0,0,0,0
+desserts,Orange Paddle Pop,, R10.90,,0,0,0,0,0
+desserts,Hot Sticky Toffee Pudding,,R23.90,D,0,0,0,0,0
+desserts,Hot Chocolate Pudding,,R23.90,D,0,0,0,0,0
+desserts,Chocolate Mousse NEW,,R23.90,D,0,0,0,0,0

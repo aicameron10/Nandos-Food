@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/homeFrag"
+    xmlns:fab="http://schemas.android.com/apk/res-auto">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <com.mydeliveries.nandos.util.SlidingTabLayout
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="7dp"
+                android:background="@color/ColorPrimary"
+                />
+
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/pager"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    ></android.support.v4.view.ViewPager>
+        </LinearLayout>
+
+
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fab_image_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        fab:menu_labels_ellipsize="end"
+        fab:menu_labels_singleLine="true"
+        fab:menu_fab_label="Menu label"
+        fab:menu_icon="@mipmap/ic_checkout"
+        fab:menu_animationDelayPerItem="0"
+        fab:menu_colorNormal="#800411"
+        fab:menu_colorPressed="#71020a"
+        fab:menu_colorRipple="#71020a">
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+        
+
+

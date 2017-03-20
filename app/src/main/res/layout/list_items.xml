@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#800411"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/price"
+        android:textColor="#5c4a3d"
+        android:textSize="14dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:textColor="#5c4a3d"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/drink"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/price" />
+    <TextView
+        android:id="@+id/side"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/drink" />
+    <TextView
+        android:id="@+id/hotlevel"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/side" />
+    <TextView
+        android:id="@+id/diatary"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/hotlevel" />
+
+    <TextView
+        android:id="@+id/vegoption"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/diatary" />
+    <TextView
+        android:id="@+id/extra"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/diatary" />
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/extra" />
+</RelativeLayout>
